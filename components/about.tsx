@@ -1,42 +1,63 @@
-import { aboutMe, quote } from "@/data";
-import React, { useState } from "react";
+import React from "react";
+import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
+import { aboutMe, gridItems } from "@/data";
+import { StickyScroll } from "./ui/StickyScroll";
+import { div } from "three/examples/jsm/nodes/Nodes.js";
 
-const about = () => {
+const About = () => {
   return (
-    <section className="flex flex-col gap-10 py-10" id="about">
-      <div className="flex desktop:flex-row flex-col desktop:gap-x-20 gap-y-3 desktop:gap-y-0 items-center justify-center desktop:justify-start tablet_lg:mx-28">
-        <h2 className="text-4xl font-bold tracking-widest ">about me.</h2>
-        <div className="w-80 tablet:w-96 border-[0.5px] dark:border-[#f2eeea]/50 border-[#5a5a5a]/50"></div>
+    <section id="about" className="h-full w-screen dark:bg-black bg-white bg-grid-small-white/[0.15] relative flex flex-col items-center justify-center py-10 px-10 xl:px-20">
+      {/* Radial gradient for the container to give a faded look */}
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(circle,transparent_0%,transparent_0%,transparent_0%,transparent_0%,black_60%)] lg:[mask-image:radial-gradient(circle,transparent_0%,transparent_0%,transparent_0%,transparent_0%,black_40%)]"></div>
+      <div className="relative pb-10">
+        <h1 className=" text-4xl font-extralight text-center">
+          A Little {" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-br from-neutral-200 via-stone-400 to-stone-50 font-bold">
+            About Me
+          </span>
+        </h1>
       </div>
+      <div className="relative pb-10 font-thin text-center text-xl md:text-2xl lg:text-3xl font-sans w-full lg:px-40">
+        {aboutMe.map((text) => (
+          <div key={text}>
+          <h1>{text}</h1>
+          </div>
 
-      <div className="flex flex-col desktop:flex-row mx-10 tablet:mx-20 tablet_lg:mx-40 gap-20 desktop:gap-40 items-center justify-center desktop:justify-between">
-        <div className="flex flex-col gap-3 ">
-          {aboutMe.map((item) => (
-            <p
-              key={item.id}
-              className="text-lg tablet:text-xl lowercase leading-6 tracking-wide tablet_lg:text-left font-light text-left"
-            >
-              {item.content}
-            </p>
-          ))}
+        ))}
         </div>
 
-        <div className="grid relative group">
-          <div className="translate-x-2 translate-y-2 rounded-md w-72 h-72 tablet:w-96 tablet:h-96 border-black-100 dark:border-white border-3 group-hover:bg-black-100 group-hover:dark:bg-white row-[1] col-[1] transition-all duration-200  group-hover:translate-x-3 group-hover:translate-y-3 bg-transparent"></div>
-          <img
-            className="-translate-x-2 -translate-y-2 z-50 rounded-md overflow-hidden w-72 h-72 tablet:w-96 tablet:h-96 row-[1] col-[1] transition-all duration-200 group-hover:-translate-x-3 group-hover:-translate-y-3 grayscale-[100%] group-hover:grayscale-0"
-            src="/personal.jpg"
-            alt=""
-          />
-        </div>
-      </div>
-      <div>
-        <p className="pt-2 font-serif text-xl tablet:text-2xl desktop:text-3xl text-center mx-20 desktop:mx-40 lowercase">
-          "{quote}"
-        </p>
-      </div>
+      <BentoGrid className="gap-10">
+        {gridItems.map(
+          ({
+            id,
+            title,
+            subtitle,
+            subheading,
+            description,
+            className,
+            img,
+            imgClassName,
+            titleClassName,
+            spareImg,
+          }) => (
+            <BentoGridItem
+              id={id}
+              key={id}
+              title={title}
+              subtitle={subtitle}
+              subheading={subheading}
+              description={description}
+              className={className}
+              imgClassName={imgClassName}
+              titleClassName={titleClassName}
+              img={img}
+              spareImg={spareImg}
+            />
+          )
+        )}
+      </BentoGrid>
     </section>
   );
 };
 
-export default about;
+export default About;

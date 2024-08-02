@@ -6,7 +6,6 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "framer-motion";
-import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa";
 import { ThemeSwitcher } from "./ThemeSwitcher";

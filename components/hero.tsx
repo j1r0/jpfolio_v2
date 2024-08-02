@@ -6,7 +6,7 @@ import { TextGenerateEffect } from '@/components/ui/TextGenerate'
 
 const hero = () => {
   return (
-    <section className = " w-screen h-screen flex" id="home">
+    <section className = "relative w-screen h-screen flex" id="home">
           <div className="w-screen px-8 desktop:px-28 desktop:pb-28 desktop_lg:px-40 flex flex-col desktop:items-start desktop:justify-end items-center justify-center h-screen desktop:gap-3 gap-5">
 
 {/* Typer */}

@@ -10,7 +10,7 @@ const projects = () => {
         <h2 className="text-4xl font-bold tracking-widest ">my projects.</h2>
         <div className="w-80 tablet:w-96 border-[0.5px] dark:border-[#f2eeea]/50 border-[#5a5a5a]/50"></div>
       </div>
-      <div className="flex flex-col mx-10 tablet:mx-20 tablet_lg:mx-40 gap-10 desktop:gap-14 items-center justify-center desktop:justify-between ">
+      <div className="relative flex flex-col mx-10 tablet:mx-20 tablet_lg:mx-40 gap-10 desktop:gap-14 items-center justify-center desktop:justify-between ">
       {projectList.map((project,id) => (
         <div className={`w-full `} key={id}>
         <Card

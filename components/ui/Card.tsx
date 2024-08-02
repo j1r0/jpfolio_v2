@@ -43,7 +43,7 @@ export const Card: React.FC<CardProps> = ({
       </div>
 
       <div className={`absolute desktop:relative lowercase flex flex-col gap-3 tablet-lg:gap-6  min-w-60 max-w-72
-       tablet:max-w-[36rem] desktop:max-w-[30rem] group-hover:scale-105 ${isEven ? "desktop:group-hover:-translate-x-20 desktop:text-right":"desktop:group-hover:translate-x-20 text-left desktop:text-left"} ease-in-out duration-300 text-center `}> 
+       tablet:max-w-[36rem] desktop:max-w-[30rem] group-hover:scale-105 ${isEven ? "desktop:group-hover:-translate-x-24 desktop:text-right":"desktop:group-hover:translate-x-24 text-left desktop:text-left"} ease-in-out duration-300 text-center `}> 
      
         <div>
         <p className="font-thin tracking-[0.2em] leading-6 text-xs tablet:text-sm">featured project.</p>

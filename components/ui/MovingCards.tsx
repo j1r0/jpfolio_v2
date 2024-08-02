@@ -12,8 +12,6 @@ export const InfiniteMovingCards = ({
 }: {
   items: {
     title: string;
-    icon: JSX.Element;
-    link: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -65,7 +63,7 @@ export const InfiniteMovingCards = ({
       } else if (speed === "normal") {
         containerRef.current.style.setProperty("--animation-duration", "40s");
       } else {
-        containerRef.current.style.setProperty("--animation-duration", "90s");
+        containerRef.current.style.setProperty("--animation-duration", "80s");
       }
     }
   };
@@ -73,29 +71,31 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "relative z-20 w-screen overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          " flex min-w-full shrink-0 gap-x-16 tablet:gap-x-28 py-2 w-max flex-nowrap ",
+          " flex min-w-full shrink-0 gap-2 md:gap-4 py-2 w-max flex-nowrap ",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item, idx) => (
           <li
-            className="relative flex-shrink-0 hover:opacity-100 opacity-50 hover:scale-110 transition duration-300 ease-soft-spring"
+            className="w-[200px] relative rounded-xl border border-b-0 flex-shrink-0 px-4 py-4 md:py-8 bg-black-200 opacity-50 hover:scale-[103%] transition duration-200"
 
             key={item.title}
           >
-              <a href={item.link} target="_blank" className="relative z-20 flex flex-row items-center justify-center">
+              <div className="relative z-20 flex flex-row items-center justify-center">
                 <span className="flex flex-col gap-1">
-                    <span className="text-[3rem] tablet_lg:text-[4rem] desktop:text-[5rem]">{item.icon}</span>
+                  <span className=" text-xs leading-[1.6] text-white-100 md:text-base font-light uppercase tracking-widest">
+                    {item.title}
+                  </span>
                 </span>
-              </a>
+              </div>
           </li>
         ))}
       </ul>

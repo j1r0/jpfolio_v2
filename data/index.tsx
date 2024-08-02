@@ -1,56 +1,35 @@
+import { link } from "fs";
 import { title } from "process";
 import { FaJava } from "react-icons/fa6";
 import {
   SiAndroid,
-  SiC,
+  SiBootstrap,
   SiChakraui,
-  SiCplusplus,
   SiDart,
   SiExpress,
   SiFlutter,
   SiGithub,
+  SiGmail,
   SiGoogle,
   SiInstagram,
-  SiJavascript,
   SiLinkedin,
   SiMongodb,
   SiMysql,
   SiNextdotjs,
   SiNodedotjs,
-  SiPython,
   SiReact,
   SiSqlite,
   SiTailwindcss,
-  SiTypescript,
   SiVite,
 } from "react-icons/si";
 
 export const navItems = [
-  { name: "Home", link: "#" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const aboutMe = [
-  {
-    id: 1,
-    content:
-      "hello! my name is jim and i’ve come a long way from where i’ve began.",
-  },
-  {
-    id: 2,
-    content:
-      "Growing up in Guam, I had a knack for tinkering with technology, often experimenting with old laptops and second-hand phones. rightly so, my mom would  call me a “sira-niko,” a playful combination of the Tagalog words for broken and mechanic, because I enjoyed fixing things, even if I sometimes made them worse before improving them. With a background that lacked college education and limited financial means, I took it upon myself to pursue higher education. Now, I’m pursuing an accelerated Master’s in Software Engineering at Embry-Riddle Aeronautical University.",
-  },
-  {
-    id: 3,
-    content:
-      "in recent years, full-stack and app development have caught my eye. it was inspired by my fascination of how software could simplify life.  here i am now in 2024, building a website that makes it easier for other people to get to know who i am :)",
-  },
-];
-
-export const quote = [
   "Software Engineering is not just about creating code; it's about crafting solutions that improve lives, foster innovation, and drive progress.",
 ];
 
@@ -90,35 +69,34 @@ export const gridItems = [
   },
 ];
 
-export const projectList = [
+export const projects = [
   {
     id: 1,
     title: "ERAU SASE Website",
-    des: "An engaging and interactive website for a growing school organization (SASE) significantly enhanced the online presence and member engagement, allowing members to easily access resources and stay updated on events.",
+    des: "An engaging and interactive website for a growing school organization with over 100 members. Its creation significantly enhanced the online presence and member engagement.",
     img: "/sasewebsite.png",
     iconLists: [
-      { icon: <SiReact />, link: "https://reactjs.org/docs/" },
-      { icon: <SiVite />, link: "https://vitejs.dev/guide/" },
-      { icon: <SiTailwindcss />, link: "https://tailwindcss.com/docs" },
-      { icon: <SiNodedotjs />, link: "https://nodejs.org/en/docs/" },
-      { icon: <SiExpress />, link: "https://expressjs.com/" },
+      <SiReact />,
+      <SiVite />,
+      <SiTailwindcss />,
+      <SiNodedotjs />,
+      <SiExpress />,
     ],
-    figma:
-      "https://www.figma.com/design/asLSI4MLL23B2DAWEvW7XJ/SASE-Website?node-id=0-1&t=k5Sa2PpU2Liv9HSW-1",
+    figma: "https://www.figma.com/design/asLSI4MLL23B2DAWEvW7XJ/SASE-Website?node-id=0-1&t=k5Sa2PpU2Liv9HSW-1",
     link: "https://sase-website.pages.dev",
     linktype: "Website",
   },
   {
     id: 2,
     title: "FitSage",
-    des: "An at-home fitness and nutrition app was designed to combat health challenges for students, featuring a workout planner and tracking nutrient intake and body metrics. This was created to provide a comprehensive tool for maintaining a healthy lifestyle during the COVID-19 pandemic.",
+    des: "An at-home fitness and nutrition app designed to combat health challenges for students that features a workout planner and tracks nutrient intake and body metrics.",
     img: "/fitsage.png",
     iconLists: [
-      { icon: <SiFlutter />, link: "https://flutter.dev/docs" },
-      { icon: <SiDart />, link: "https://dart.dev/guides" },
-      { icon: <FaJava />, link: "https://docs.oracle.com/en/java/" },
-      { icon: <SiSqlite />, link: "https://www.sqlite.org/docs.html" },
-      { icon: <SiAndroid />, link: "https://developer.android.com/docs" },
+      <SiFlutter />,
+      <SiDart />,
+      <FaJava />,
+      <SiSqlite />,
+      <SiAndroid />,
     ],
     figma: "",
     link: "https://github.com/ERAUFitnessTracker/FitSage",
@@ -127,19 +105,49 @@ export const projectList = [
   {
     id: 3,
     title: "Visionary",
-    des: "A lightweight and easy-to-use photography website functions as a photo database and a dynamic portfolio, showcasing work with a sleek, responsive design. It's particularly useful for photographers looking to present their work professionally and accessibly, making it easy for clients and viewers to explore their portfolio on any device.",
+    des: "A lightweight and easy-to-use photography website. It functions as a photo database and a dynamic portfolio, showcasing work with a sleek, responsive design.",
     img: "/visionary.png",
     iconLists: [
-      { icon: <SiReact />, link: "https://reactjs.org/docs/" },
-      { icon: <SiNodedotjs />, link: "https://nodejs.org/en/docs/" },
-      { icon: <SiExpress />, link: "https://expressjs.com/" },
-      { icon: <SiMysql />, link: "https://dev.mysql.com/doc/" },
-      { icon: <SiChakraui />, link: "https://chakra-ui.com/docs/getting-started" },
+      <SiReact />,
+      <SiNodedotjs />,
+      <SiExpress />,
+      <SiMysql />,
+      <SiChakraui />,
     ],
-    figma:
-      "https://www.figma.com/design/7zc5jB6tZND5YSb4nNW2gH/Visionary?node-id=0-1&t=q3KLwCAOE9VUwNAO-1",
+    figma: "https://www.figma.com/design/7zc5jB6tZND5YSb4nNW2gH/Visionary?node-id=0-1&t=q3KLwCAOE9VUwNAO-1",
     link: "https://github.com/j1r0/visionary",
     linktype: "GitHub",
+  },
+];
+
+export const workExperience = [
+  {
+    id: 1,
+    title: "Frontend Engineer Intern",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "Mobile App Dev - JSM Tech",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 3,
+    title: "Freelance App Dev Project",
+    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 4,
+    title: "Lead Frontend Developer",
+    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -160,118 +168,55 @@ export const socialMedia = [
     link: "https://github.com/j1r0",
   },
 ];
-export const technologies = [
+export const technologies1 = [
   {
     title: "Next.js",
-    icon: <SiNextdotjs />,
-    link: "https://nextjs.org/docs",
   },
   {
     title: "Tailwind CSS",
-    icon: <SiTailwindcss />,
-    link: "https://tailwindcss.com/docs",
   },
   {
     title: "Java",
-    icon: <FaJava />,
-    link: "https://docs.oracle.com/en/java/",
   },
   {
     title: "Python",
-    icon: <SiPython />,
-    link: "https://docs.python.org/3/",
   },
   {
     title: "C",
-    icon: <SiC />,
-    link: "https://en.cppreference.com/w/c",
-  },
-  {
-    title: "JavaScript",
-    icon: <SiJavascript />,
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
-  },
-  {
-    title: "TypeScript",
-    icon: <SiTypescript />,
-    link: "https://www.typescriptlang.org/docs/",
-  },
-  {
-    title: "MySQL",
-    icon: <SiMysql />,
-    link: "https://dev.mysql.com/doc/",
-  },
-  {
-    title: "Node.js",
-    icon: <SiNodedotjs />,
-    link: "https://nodejs.org/en/docs/",
-  },
-  {
-    title: "C++",
-    icon: <SiCplusplus />,
-    link: "https://devdocs.io/cpp/",
-  },
-  {
-    title: "Express.js",
-    icon: <SiExpress />,
-    link: "https://expressjs.com/",
-  },
-  {
-    title: "Dart",
-    icon: <SiDart />,
-    link: "https://dart.dev/guides",
-  },
-  {
-    title: "MongoDB",
-    icon: <SiMongodb />,
-    link: "https://docs.mongodb.com/",
-  },
-  {
-    title: "React",
-    icon: <SiReact />,
-    link: "https://reactjs.org/docs/",
-  },
-  {
-    title: "Chakra UI",
-    icon: <SiChakraui />,
-    link: "https://chakra-ui.com/docs/getting-started",
-  },
-  {
-    title: "SQLite",
-    icon: <SiSqlite />,
-    link: "https://www.sqlite.org/docs.html",
-  },
-  {
-    title: "Flutter",
-    icon: <SiFlutter />,
-    link: "https://flutter.dev/docs",
-  },
-  {
-    title: "GitHub",
-    icon: <SiGithub />,
-    link: "https://docs.github.com/en",
   },
 ];
 
-export const contactList= [
+export const technologies2 = [
   {
-    title:"LinkedIn",
-    icon: <SiLinkedin />,
-    link: "https://www.linkedin.com/in/jpamplona28/",
+    title: "JavaScript",
   },
   {
-    title:"GitHub",
-    icon: <SiGithub />,
-    link: "https://github.com/j1r0",
+    title: "TypeScript",
   },
   {
-    title:"Instagram",
-    icon: <SiInstagram />,
-    link: "https://www.instagram.com/jirophotography/",
+    title: "MySQL",
   },
   {
-    title:"Email",
-    icon: <p>pamplonajimp@gmail.com</p>,
-    link: "mailto:pamplonajimp@gmail.com",
+    title: "Node.js",
+  },
+  {
+    title: "C++",
+  },
+];
+export const technologies3 = [
+  {
+    title: "Express.js",
+  },
+  {
+    title: "Dart",
+  },
+  {
+    title: "MATLAB",
+  },
+  {
+    title: "MongoDB",
+  },
+  {
+    title: "React",
   },
 ];

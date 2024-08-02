@@ -7,7 +7,7 @@ import { div } from "three/examples/jsm/nodes/Nodes.js";
 const About = () => {
   return (
     <section id="about" className="h-full w-screen dark:bg-black bg-white bg-grid-small-white/[0.15] relative flex flex-col items-center justify-center py-10 px-10 xl:px-20">
-      {/* Radial gradient for the container to give a faded look */}
+
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(circle,transparent_0%,transparent_0%,transparent_0%,transparent_0%,black_60%)] lg:[mask-image:radial-gradient(circle,transparent_0%,transparent_0%,transparent_0%,transparent_0%,black_40%)]"></div>
       <div className="relative pb-10">
         <h1 className=" text-4xl font-extralight text-center">

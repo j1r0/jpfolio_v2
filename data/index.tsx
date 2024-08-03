@@ -41,7 +41,7 @@ export const aboutMe = [
   {
     id: 2,
     content:
-      "Growing up in Guam, I had a knack for tinkering with technology, often experimenting with old laptops and second-hand phones. rightly so, my mom would call me a “sira-niko,” a playful combination of the Tagalog words for broken and mechanic, because I enjoyed fixing things even if I sometimes made them worse before improving them. coming from family limited financial means and no college education, fixing these old tech meant that we would not need to spend hundreds on a repair or a new device. i also took it upon myself to pursue higher education at Embry-Riddle Aeronautical University, where I'm now an Accelerated Master’s student in Software Engineering",
+      "Growing up in Guam, I had a knack for tinkering with technology, often experimenting with old laptops and second-hand phones. rightly so, my mom would call me a “sira-niko,” a playful combination of the Tagalog words for broken and mechanic, because I enjoyed fixing things even if I sometimes made them worse before improving them. coming from family limited financial means and no college education, fixing these old tech meant that we would not need to spend hundreds on a repair or a new device. i also took it upon myself to pursue higher education at Embry-Riddle Aeronautical University, where I'm now an Accelerated Master’s student in Software Engineering.",
   },
   {
     id: 3,

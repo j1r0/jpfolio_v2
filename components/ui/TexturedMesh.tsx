@@ -142,13 +142,13 @@ const TextureMesh = () => {
           }
         `}
         uniforms={{
-          u_speed: { value: 0.05 },
+          u_speed: { value: 0.052 },
           u_scale: { value: 0 },
-          u_colors: { value: [new THREE.Vector4(1, 1, 1, 0), new THREE.Vector4(0, 0, 0, 0)] },
-          light: { value: 0.151 },
-          shadow: { value: 0.5 },
-          tint: { value: 0.596 },
-          coverage: { value: 0.276 },
+          u_colors: { value: [new THREE.Vector4(0.949, 0.914, 0.878, 1), new THREE.Vector4(0, 0, 0, 0)] },
+          light: { value: 0 },
+          shadow: { value: 0.458 },
+          tint: { value: 0 },
+          coverage: { value: 0.39 },
           alpha: { value: 1 },
           u_time: { value: 0 },
           u_mouse: { value: [0, 0] },

@@ -32,9 +32,12 @@ export const Navbar = ({
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     // Check if current is not undefined and is a number
     if (typeof current === "number") {
-       direction = current! - scrollYProgress.getPrevious()!;
+      current < 0 && (current = 0);
+      const prev = (scrollYProgress.getPrevious()! < 0 ? 0 : scrollYProgress.getPrevious())!;
+       direction = current! - prev!;
+       console.log(prev);
 
-        if (direction < 0) {
+        if (direction <= 0) {
           setVisible(true);
         } else {
           setVisible(false);

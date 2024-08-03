@@ -13,7 +13,7 @@ const footer = () => {
     </div>
     <div className="text-sm font-thin tracking-widest tablet:text-md flex justify-center items-center opacity-50 ">
 
-      <p>designed & developed by {" "} <a className="underline" target="_blank" href="https://www.linkedin.com/in/jpamplona28/">jim pamplona</a></p>
+      <p><a className="underline" href="https://www.figma.com/design/jhZyqz0g8MuCu4Aoj7Et41/jirofolio?node-id=0-1&t=B4WbrGZKltqdBkxm-1" target="_blank">designed on figma</a> & <a className="underline" target="_blank" href="https://github.com/j1r0/jpfolio_v2">developed by jim pamplona</a></p>
       
     </div>
     </footer>

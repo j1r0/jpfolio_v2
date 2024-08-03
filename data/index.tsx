@@ -97,7 +97,7 @@ export const projectList = [
     des: "An engaging and interactive website for a growing school organization (SASE) significantly enhanced the online presence and member engagement, allowing members to easily access resources and stay updated on events.",
     img: "/sasewebsite.png",
     iconLists: [
-      { icon: <SiReact />, link: "https://reactjs.org/docs/" },
+      { icon: <SiReact />, link: "https://react.dev/blog/2023/03/16/introducing-react-dev" },
       { icon: <SiVite />, link: "https://vitejs.dev/guide/" },
       { icon: <SiTailwindcss />, link: "https://tailwindcss.com/docs" },
       { icon: <SiNodedotjs />, link: "https://nodejs.org/en/docs/" },
@@ -130,7 +130,7 @@ export const projectList = [
     des: "A lightweight and easy-to-use photography website functions as a photo database and a dynamic portfolio, showcasing work with a sleek, responsive design. It's particularly useful for photographers looking to present their work professionally and accessibly, making it easy for clients and viewers to explore their portfolio on any device.",
     img: "/visionary.png",
     iconLists: [
-      { icon: <SiReact />, link: "https://reactjs.org/docs/" },
+      { icon: <SiReact />, link: "https://react.dev/blog/2023/03/16/introducing-react-dev" },
       { icon: <SiNodedotjs />, link: "https://nodejs.org/en/docs/" },
       { icon: <SiExpress />, link: "https://expressjs.com/" },
       { icon: <SiMysql />, link: "https://dev.mysql.com/doc/" },
@@ -229,7 +229,7 @@ export const technologies = [
   {
     title: "React",
     icon: <SiReact />,
-    link: "https://reactjs.org/docs/",
+    link: "https://react.dev/blog/2023/03/16/introducing-react-dev",
   },
   {
     title: "Chakra UI",

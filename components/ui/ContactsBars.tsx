@@ -9,7 +9,7 @@ const ContactsBars = () => {
       <div className=" fixed flex w-[95vw] flex-row bottom-0 items-end justify-between ">
         <div className="relative flex flex-col gap-5 justify-center items-center ">
           {contactList.map((contact, id) => contact.title !== 'Email' && (
-            <a href={contact.link} key={id} className="hover:opacity-70 hover:-translate-y-[2px] ease-soft-spring text-xl transition duration-300">
+            <a href={contact.link} target="_blank" key={id} className="hover:opacity-70 hover:-translate-y-[2px] ease-soft-spring text-xl transition duration-300">
               {contact.icon}
             </a>
           ))}
@@ -17,7 +17,7 @@ const ContactsBars = () => {
         </div>
         <div className="relative flex flex-col gap-5  justify-center items-center ">
           {contactList.map((contact, id) => contact.title === 'Email' && (
-            <a href={contact.link} target="_blank" key={id} className="[writing-mode:vertical-lr] font-thin hover:opacity-70 transition duration-300 hover:-translate-y-[2px] ">
+            <a href={contact.link} key={id} className="[writing-mode:vertical-lr] font-thin hover:opacity-70 transition duration-300 hover:-translate-y-[2px] ">
               {contact.icon}
             </a>
           ))}

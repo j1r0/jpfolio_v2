@@ -36,17 +36,17 @@ export const aboutMe = [
   {
     id: 1,
     content:
-      "hello! my name is jim and i’ve come a long way from where i’ve began.",
+      "hello! my name is jim and i’ve come a long way from where i began.",
   },
   {
     id: 2,
     content:
-      "Growing up in Guam, I had a knack for tinkering with technology, often experimenting with old laptops and second-hand phones. rightly so, my mom would  call me a “sira-niko,” a playful combination of the Tagalog words for broken and mechanic, because I enjoyed fixing things, even if I sometimes made them worse before improving them. With a background that lacked college education and limited financial means, I took it upon myself to pursue higher education. Now, I’m pursuing an accelerated Master’s in Software Engineering at Embry-Riddle Aeronautical University.",
+      "Growing up in Guam, I had a knack for tinkering with technology, often experimenting with old laptops and second-hand phones. rightly so, my mom would call me a “sira-niko,” a playful combination of the Tagalog words for broken and mechanic, because I enjoyed fixing things even if I sometimes made them worse before improving them. coming from family limited financial means and no college education, fixing these old tech meant that we would not need to spend hundreds on a repair or a new device. i also took it upon myself to pursue higher education at Embry-Riddle Aeronautical University, where I'm now an Accelerated Master’s student in Software Engineering",
   },
   {
     id: 3,
     content:
-      "in recent years, full-stack and app development have caught my eye. it was inspired by my fascination of how software could simplify life.  here i am now in 2024, building a website that makes it easier for other people to get to know who i am :)",
+      "in recent years, full-stack and app development have caught my eyes, inspired by my fascination of how software could simplify life.  here i am now in 2024, building a website that makes it easier for other people to get to know who i am :)",
   },
 ];
 

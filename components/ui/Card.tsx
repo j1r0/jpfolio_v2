@@ -34,7 +34,6 @@ export const Card = ({
           className="h-96 object-cover object-center rounded-md min-w-full grayscale desktop:group-hover:grayscale-0 duration-300"
           src={img}
           alt={title}
-          loading="lazy"
         />
         <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full bg-white dark:bg-black-100 bg-fixed opacity-30 group-hover:opacity-0 duration-300"></div>
       </div>

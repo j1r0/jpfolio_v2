@@ -35,7 +35,6 @@ export const Navbar = ({
       current < 0 && (current = 0);
       const prev = (scrollYProgress.getPrevious()! < 0 ? 0 : scrollYProgress.getPrevious())!;
        direction = current! - prev!;
-       console.log(prev);
 
         if (direction <= 0) {
           setVisible(true);

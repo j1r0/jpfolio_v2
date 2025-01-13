@@ -155,6 +155,7 @@ export const projectList = [
     ],
     figma: "https://www.figma.com/design/3LFUXZGglFq9kiKeomucW9/VANTAGE?node-id=0-1&t=Ofpgv9ZEo3OHObAu-1",
     link: "https://github.com/TEAM-13-VANTAGE/vantage",
+    linktype: "GitHub",
   }
 ];
 

@@ -27,6 +27,8 @@ import {
   SiVite,
 } from "react-icons/si";
 
+
+
 export const navItems = [
   { name: "Home", link: "#" },
   { name: "About", link: "#about" },
@@ -93,38 +95,37 @@ export const gridItems = [
 ];
 
 export const projectList = [
+
   {
     id: 1,
-    title: "ERAU SASE Website",
-    des: "An engaging and interactive website for a growing school organization (SASE) significantly enhanced the online presence and member engagement, allowing members to easily access resources and stay updated on events.",
-    img: "/sasewebsite.png",
+    title: "VANTAGE",
+    des: "Virtual Autonomous Navigation Testing and Guidance Environment. An open source collision avoidance system testing environment developed to provide a safe and controlled environment for UAV analysts to utilize.",
+    img: "/vantage.png",
     iconLists: [
-      { icon: <SiReact />, link: "https://react.dev/blog/2023/03/16/introducing-react-dev", iconName: "React" },
-      { icon: <SiVite />, link: "https://vitejs.dev/guide/", iconName: "Vite" },
-      { icon: <SiTailwindcss />, link: "https://tailwindcss.com/docs", iconName: "Tailwind CSS" },
-      { icon: <SiNodedotjs />, link: "https://nodejs.org/en/docs/", iconName: "Node.js" },
-      { icon: <SiExpress />, link: "https://expressjs.com/", iconName: "Express.js" },
+      { icon: <SiPython />, link: "https://docs.python.org/3/", iconName: "Python" },
+      { icon: <SiJulia />, link: "https://docs.julialang.org/en/v1/", iconName: "Julia" },
+      { icon: <SiArduino/>, link: "https://ardupilot.org/copter/docs/common-index.html", iconName: "ArduPilot" },
+      { icon: 
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gazebo/gazebo-original.svg" />
+      , link: "https://ardupilot.org/copter/docs/common-index.html", iconName: "Gazebo" },
     ],
-    figma:
-      "https://www.figma.com/design/asLSI4MLL23B2DAWEvW7XJ/SASE-Website?node-id=0-1&t=k5Sa2PpU2Liv9HSW-1",
-    link: "https://sase-website.pages.dev",
-    linktype: "Website",
+    figma: "https://www.figma.com/design/3LFUXZGglFq9kiKeomucW9/VANTAGE?node-id=0-1&t=Ofpgv9ZEo3OHObAu-1",
+    link: "https://github.com/TEAM-13-VANTAGE/vantage",
+    linktype: "GitHub",
   },
   {
     id: 2,
-    title: "FitSage",
-    des: "An at-home fitness and nutrition app was designed to combat health challenges for students, featuring a workout planner and tracking nutrient intake and body metrics. This was created to provide a comprehensive tool for maintaining a healthy lifestyle during the COVID-19 pandemic.",
-    img: "/fitsage.png",
+    title: "Portfolio v1",
+    des: "Version 1 of my portfolio website that showcases my work and skills. It was visually appealing and responsive, but lacked personalization, which led to the creation of v2.",
+    img: "/portfolio.png",
     iconLists: [
-      { icon: <SiFlutter />, link: "https://flutter.dev/docs", iconName: "Flutter" },
-      { icon: <SiDart />, link: "https://dart.dev/guides",  iconName: "Dart" },
-      { icon: <FaJava />, link: "https://docs.oracle.com/en/java/", iconName: "Java" },
-      { icon: <SiSqlite />, link: "https://www.sqlite.org/docs.html", iconName: "SQLite" },
-      { icon: <SiAndroid />, link: "https://developer.android.com/docs", iconName: "Android" },
+      { icon: <SiNextdotjs />, link: "https://nextjs.org/docs", iconName: "Next.js" },
+      { icon: <SiTailwindcss />, link: "https://tailwindcss.com/docs", iconName: "Tailwind CSS" },
+      { icon: <SiTypescript />, link: "https://www.typescriptlang.org/docs/", iconName: "TypeScript" },
     ],
-    figma: "",
-    link: "https://github.com/ERAUFitnessTracker/FitSage",
-    linktype: "GitHub",
+    figma: "https://www.figma.com/design/yovXhT0PNxPXZWmp29Amei/Portfolio?node-id=2-2&t=Dl1rwVUQm0yaH53Y-1",
+    link: "https://jpamplona-v1.vercel.app/",
+    linktype: "Website",
   },
   {
     id: 3,
@@ -145,20 +146,36 @@ export const projectList = [
   },
   {
     id: 4,
-    title: "vantage",
-    des: "An open source collision avoidance system testing environment for UAVs. This two-tiered environment was developed to provide a safe and controlled environment for testing collision avoidance for UAV analysts to utilize.",
-    img: "/vantage.png",
+    title: "FitSage",
+    des: "An at-home fitness and nutrition app was designed to combat health challenges for students, featuring a workout planner and tracking nutrient intake and body metrics. This was created to provide a comprehensive tool for maintaining a healthy lifestyle during the COVID-19 pandemic.",
+    img: "/fitsage.png",
     iconLists: [
-      { icon: <SiPython />, link: "https://docs.python.org/3/", iconName: "Python" },
-      { icon: <SiJulia />, link: "https://docs.julialang.org/en/v1/", iconName: "Julia" },
-      { icon: <SiArduino/>, link: "https://ardupilot.org/copter/docs/common-index.html", iconName: "ArduPilot" },
-      { icon: 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gazebo/gazebo-original.svg" />
-      , link: "https://ardupilot.org/copter/docs/common-index.html", iconName: "Gazebo" },
+      { icon: <SiFlutter />, link: "https://flutter.dev/docs", iconName: "Flutter" },
+      { icon: <SiDart />, link: "https://dart.dev/guides",  iconName: "Dart" },
+      { icon: <FaJava />, link: "https://docs.oracle.com/en/java/", iconName: "Java" },
+      { icon: <SiSqlite />, link: "https://www.sqlite.org/docs.html", iconName: "SQLite" },
+      { icon: <SiAndroid />, link: "https://developer.android.com/docs", iconName: "Android" },
     ],
-    figma: "https://www.figma.com/design/3LFUXZGglFq9kiKeomucW9/VANTAGE?node-id=0-1&t=Ofpgv9ZEo3OHObAu-1",
-    link: "https://github.com/TEAM-13-VANTAGE/vantage",
+    figma: "",
+    link: "https://github.com/ERAUFitnessTracker/FitSage",
     linktype: "GitHub",
+  },
+  {
+    id: 5,
+    title: "ERAU SASE Website",
+    des: "An engaging and interactive website for a growing school organization (SASE) significantly enhanced the online presence and member engagement, allowing members to easily access resources and stay updated on events.",
+    img: "/sasewebsite.png",
+    iconLists: [
+      { icon: <SiReact />, link: "https://react.dev/blog/2023/03/16/introducing-react-dev", iconName: "React" },
+      { icon: <SiVite />, link: "https://vitejs.dev/guide/", iconName: "Vite" },
+      { icon: <SiTailwindcss />, link: "https://tailwindcss.com/docs", iconName: "Tailwind CSS" },
+      { icon: <SiNodedotjs />, link: "https://nodejs.org/en/docs/", iconName: "Node.js" },
+      { icon: <SiExpress />, link: "https://expressjs.com/", iconName: "Express.js" },
+    ],
+    figma:
+      "https://www.figma.com/design/asLSI4MLL23B2DAWEvW7XJ/SASE-Website?node-id=0-1&t=k5Sa2PpU2Liv9HSW-1",
+    link: "https://sase-website.pages.dev",
+    linktype: "Website",
   },
 ];
 

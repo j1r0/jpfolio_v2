@@ -87,7 +87,7 @@ export const InfiniteMovingCards = ({
         )}
       >
         {items.map((item, idx) => (
-          <Tooltip key={idx} content={item.title} placement="bottom">
+          <Tooltip key={idx} content={item.title} placement="bottom" showArrow={true}> 
           <li
             className="relative flex-shrink-0 hover:opacity-100 opacity-50 hover:scale-110 transition duration-300 ease-soft-spring"
 

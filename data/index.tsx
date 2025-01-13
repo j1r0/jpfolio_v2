@@ -52,6 +52,11 @@ export const aboutMe = [
     content:
       "in recent years, full-stack and app development have caught my eyes, inspired by my fascination of how software could simplify life. here i am now in 2024, building a website that makes it easier for other people to get to know who i am :)",
   },
+  {
+    id: 4,
+    content:
+      "Currently, I am the President of the Society of Asian Scientists and Engineers (SASE) at ERAU. With this role, my mission is to cultivate a welcoming family for students far from home and assist them in gaining the skills and experience they need to succeed. If you are reading this and are from ERAU, join us! We have a lot of fun, exciting events, and awesome people to meet!",
+  },
 ];
 
 export const quote = [
@@ -105,9 +110,6 @@ export const projectList = [
       { icon: <SiPython />, link: "https://docs.python.org/3/", iconName: "Python" },
       { icon: <SiJulia />, link: "https://docs.julialang.org/en/v1/", iconName: "Julia" },
       { icon: <SiArduino/>, link: "https://ardupilot.org/copter/docs/common-index.html", iconName: "ArduPilot" },
-      { icon: 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gazebo/gazebo-original.svg" />
-      , link: "https://ardupilot.org/copter/docs/common-index.html", iconName: "Gazebo" },
     ],
     figma: "https://www.figma.com/design/3LFUXZGglFq9kiKeomucW9/VANTAGE?node-id=0-1&t=Ofpgv9ZEo3OHObAu-1",
     link: "https://github.com/TEAM-13-VANTAGE/vantage",
@@ -117,7 +119,7 @@ export const projectList = [
     id: 2,
     title: "Portfolio v1",
     des: "Version 1 of my portfolio website that showcases my work and skills. It was visually appealing and responsive, but lacked personalization, which led to the creation of v2.",
-    img: "/portfolio.png",
+    img: "/jpfoliov1.png",
     iconLists: [
       { icon: <SiNextdotjs />, link: "https://nextjs.org/docs", iconName: "Next.js" },
       { icon: <SiTailwindcss />, link: "https://tailwindcss.com/docs", iconName: "Tailwind CSS" },

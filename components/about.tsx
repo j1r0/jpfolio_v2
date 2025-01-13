@@ -14,7 +14,7 @@ const about = () => {
           {aboutMe.map((item) => (
             <p
               key={item.id}
-              className="text-lg tablet:text-xl lowercase leading-6 tracking-wide tablet_lg:text-left font-light text-left"
+              className="text-lg tablet:text-xl capitalize leading-6 tracking-wide tablet_lg:text-left font-light text-left"
             >
               {item.content}
             </p>

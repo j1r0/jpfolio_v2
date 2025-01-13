@@ -2,6 +2,7 @@ import { title } from "process";
 import { FaJava } from "react-icons/fa6";
 import {
   SiAndroid,
+  SiArduino,
   SiC,
   SiChakraui,
   SiCplusplus,
@@ -12,6 +13,7 @@ import {
   SiGoogle,
   SiInstagram,
   SiJavascript,
+  SiJulia,
   SiLinkedin,
   SiMongodb,
   SiMysql,
@@ -141,6 +143,19 @@ export const projectList = [
     link: "https://github.com/j1r0/visionary",
     linktype: "GitHub",
   },
+  {
+    id: 4,
+    title: "vantage",
+    des: "An open source collision avoidance system testing environment for UAVs. This project was developed to provide a safe and controlled environment for testing collision avoidance for UAV researches to utilize.",
+    img: "/vantage.png",
+    iconLists: [
+      { icon: <SiPython />, link: "https://docs.python.org/3/" },
+      { icon: <SiJulia />, link: "https://docs.julialang.org/en/v1/" },
+      { icon: <SiArduino/>, link: "https://ardupilot.org/copter/docs/common-index.html" },
+    ],
+    figma: "https://www.figma.com/design/3LFUXZGglFq9kiKeomucW9/VANTAGE?node-id=0-1&t=Ofpgv9ZEo3OHObAu-1",
+    link: "https://github.com/TEAM-13-VANTAGE/vantage",
+  }
 ];
 
 export const socialMedia = [

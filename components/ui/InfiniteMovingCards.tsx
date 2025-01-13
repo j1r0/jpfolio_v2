@@ -82,16 +82,16 @@ export const InfiniteMovingCards = ({
         ref={scrollerRef}
         className={cn(
           " flex min-w-full shrink-0 gap-x-16 tablet:gap-x-28 py-2 w-max flex-nowrap ",
-          start && "animate-scroll ",
-          pauseOnHover && "hover:[animation-play-state:paused]"
+          start && "animate-scroll",
+
         )}
       >
         {items.map((item, idx) => (
           <Tooltip key={idx} content={item.title} placement="bottom" showArrow={true} closeDelay={0}> 
           <li
-            className="relative flex-shrink-0 hover:opacity-100 opacity-50 hover:scale-110 transition duration-300 ease-soft-spring"
-
-            key={item.title}
+            className={cn( "relative flex-shrink-0 hover:opacity-100 opacity-50 hover:scale-110 transition duration-300 ease-soft-spring",
+              pauseOnHover && "hover:[animation-play-state:paused]"
+            )} key={item.title}
           >
               <a href={item.link} target="_blank" className="relative z-20 flex flex-row items-center justify-center">
                 <span className="flex flex-col gap-1">

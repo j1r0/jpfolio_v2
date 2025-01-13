@@ -65,6 +65,7 @@ export const Card = ({
           </div>
           <div className="flex flex-row items-center justify-center gap-2">
             {figma && (
+              <Tooltip content="Figma" placement="bottom" showArrow={true}>
               <a
                 href={figma}
                 target="_blank"
@@ -72,9 +73,12 @@ export const Card = ({
               >
                 <button className="flex items-center">
                   <SiFigma />
+                  
                 </button>
               </a>
+              </Tooltip>
             )}
+            <Tooltip content={linktype} placement="bottom" showArrow={true}>
             <a
               href={link} 
               target="_blank"
@@ -84,6 +88,7 @@ export const Card = ({
                 {linktype === "Github" ? <SiGithub /> : <HiOutlineExternalLink />}
               </button>
             </a>
+            </Tooltip>
           </div>
         </div>
       </div>

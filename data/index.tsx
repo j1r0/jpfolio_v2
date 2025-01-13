@@ -151,7 +151,10 @@ export const projectList = [
     iconLists: [
       { icon: <SiPython />, link: "https://docs.python.org/3/", iconName: "Python" },
       { icon: <SiJulia />, link: "https://docs.julialang.org/en/v1/", iconName: "Julia" },
-      { icon: <SiArduino/>, link: "https://ardupilot.org/copter/docs/common-index.html", iconName: "Arduino" },
+      { icon: <SiArduino/>, link: "https://ardupilot.org/copter/docs/common-index.html", iconName: "ArduPilot" },
+      { icon: 
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gazebo/gazebo-original.svg" />
+      , link: "https://ardupilot.org/copter/docs/common-index.html", iconName: "Gazebo" },
     ],
     figma: "https://www.figma.com/design/3LFUXZGglFq9kiKeomucW9/VANTAGE?node-id=0-1&t=Ofpgv9ZEo3OHObAu-1",
     link: "https://github.com/TEAM-13-VANTAGE/vantage",

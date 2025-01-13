@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
+import { Tooltip } from "@nextui-org/react";
 
 export const InfiniteMovingCards = ({
   items,
@@ -86,6 +87,7 @@ export const InfiniteMovingCards = ({
         )}
       >
         {items.map((item, idx) => (
+          <Tooltip key={idx} content={item.title} placement="bottom">
           <li
             className="relative flex-shrink-0 hover:opacity-100 opacity-50 hover:scale-110 transition duration-300 ease-soft-spring"
 
@@ -97,6 +99,7 @@ export const InfiniteMovingCards = ({
                 </span>
               </a>
           </li>
+          </Tooltip>
         ))}
       </ul>
     </div>

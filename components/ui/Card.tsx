@@ -1,6 +1,7 @@
 import React from "react";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { SiFigma, SiGithub } from "react-icons/si";
+import { Tooltip } from "@nextui-org/react";
 
 
 export const Card = ({
@@ -19,7 +20,7 @@ export const Card = ({
   img: string;
   link: string;
   linktype: string;
-  iconLists: { link: string; icon: React.ReactNode }[];
+  iconLists: { link: string; icon: React.ReactNode; iconName: string }[];
   figma: string;
 }) => {
   const isEven = id % 2 === 0;
@@ -50,14 +51,16 @@ export const Card = ({
         <div className={`flex justify-between flex-col gap-2 tablet:gap-0 ${isEven ? "tablet:flex-row" : "desktop:flex-row-reverse tablet:flex-row"}`}>
           <div className="grid grid-flow-col justify-center gap-1">
             {iconLists.map((icon, index) => (
-              <a
-                href={icon.link}
-                target="_blank"
-                key={index}
-                className="text-sm tablet:text-md border dark:bg-black/[0.3] bg-white/[0.3] dark:border-white/[.2] border-black/[.2] rounded-full backdrop-blur-md p-3 flex justify-center items-center duration-300 hover:scale-110"
-              >
-                {icon.icon}
-              </a>
+              <Tooltip key={index} content={icon.iconName} placement="bottom" showArrow={true}>
+                <a
+                  href={icon.link}
+                  target="_blank"
+                  key={index}
+                  className="text-sm tablet:text-md border dark:bg-black/[0.3] bg-white/[0.3] dark:border-white/[.2] border-black/[.2] rounded-full backdrop-blur-md p-3 flex justify-center items-center duration-300 hover:scale-110"
+                >
+                  {icon.icon}
+                </a>
+              </Tooltip>
             ))}
           </div>
           <div className="flex flex-row items-center justify-center gap-2">

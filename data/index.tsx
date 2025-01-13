@@ -48,7 +48,7 @@ export const aboutMe = [
   {
     id: 3,
     content:
-      "in recent years, full-stack and app development have caught my eyes, inspired by my fascination of how software could simplify life.  here i am now in 2024, building a website that makes it easier for other people to get to know who i am :)",
+      "in recent years, full-stack and app development have caught my eyes, inspired by my fascination of how software could simplify life. here i am now in 2024, building a website that makes it easier for other people to get to know who i am :)",
   },
 ];
 
@@ -99,11 +99,11 @@ export const projectList = [
     des: "An engaging and interactive website for a growing school organization (SASE) significantly enhanced the online presence and member engagement, allowing members to easily access resources and stay updated on events.",
     img: "/sasewebsite.png",
     iconLists: [
-      { icon: <SiReact />, link: "https://react.dev/blog/2023/03/16/introducing-react-dev" },
-      { icon: <SiVite />, link: "https://vitejs.dev/guide/" },
-      { icon: <SiTailwindcss />, link: "https://tailwindcss.com/docs" },
-      { icon: <SiNodedotjs />, link: "https://nodejs.org/en/docs/" },
-      { icon: <SiExpress />, link: "https://expressjs.com/" },
+      { icon: <SiReact />, link: "https://react.dev/blog/2023/03/16/introducing-react-dev", iconName: "React" },
+      { icon: <SiVite />, link: "https://vitejs.dev/guide/", iconName: "Vite" },
+      { icon: <SiTailwindcss />, link: "https://tailwindcss.com/docs", iconName: "Tailwind CSS" },
+      { icon: <SiNodedotjs />, link: "https://nodejs.org/en/docs/", iconName: "Node.js" },
+      { icon: <SiExpress />, link: "https://expressjs.com/", iconName: "Express.js" },
     ],
     figma:
       "https://www.figma.com/design/asLSI4MLL23B2DAWEvW7XJ/SASE-Website?node-id=0-1&t=k5Sa2PpU2Liv9HSW-1",
@@ -116,11 +116,11 @@ export const projectList = [
     des: "An at-home fitness and nutrition app was designed to combat health challenges for students, featuring a workout planner and tracking nutrient intake and body metrics. This was created to provide a comprehensive tool for maintaining a healthy lifestyle during the COVID-19 pandemic.",
     img: "/fitsage.png",
     iconLists: [
-      { icon: <SiFlutter />, link: "https://flutter.dev/docs" },
-      { icon: <SiDart />, link: "https://dart.dev/guides" },
-      { icon: <FaJava />, link: "https://docs.oracle.com/en/java/" },
-      { icon: <SiSqlite />, link: "https://www.sqlite.org/docs.html" },
-      { icon: <SiAndroid />, link: "https://developer.android.com/docs" },
+      { icon: <SiFlutter />, link: "https://flutter.dev/docs", iconName: "Flutter" },
+      { icon: <SiDart />, link: "https://dart.dev/guides",  iconName: "Dart" },
+      { icon: <FaJava />, link: "https://docs.oracle.com/en/java/", iconName: "Java" },
+      { icon: <SiSqlite />, link: "https://www.sqlite.org/docs.html", iconName: "SQLite" },
+      { icon: <SiAndroid />, link: "https://developer.android.com/docs", iconName: "Android" },
     ],
     figma: "",
     link: "https://github.com/ERAUFitnessTracker/FitSage",
@@ -132,11 +132,11 @@ export const projectList = [
     des: "A lightweight and easy-to-use photography website functions as a photo database and a dynamic portfolio, showcasing work with a sleek, responsive design. It's particularly useful for photographers looking to present their work professionally and accessibly, making it easy for clients and viewers to explore their portfolio on any device.",
     img: "/visionary.png",
     iconLists: [
-      { icon: <SiReact />, link: "https://react.dev/blog/2023/03/16/introducing-react-dev" },
-      { icon: <SiNodedotjs />, link: "https://nodejs.org/en/docs/" },
-      { icon: <SiExpress />, link: "https://expressjs.com/" },
-      { icon: <SiMysql />, link: "https://dev.mysql.com/doc/" },
-      { icon: <SiChakraui />, link: "https://chakra-ui.com/docs/getting-started" },
+      { icon: <SiReact />, link: "https://react.dev/blog/2023/03/16/introducing-react-dev", iconName: "React" },
+      { icon: <SiNodedotjs />, link: "https://nodejs.org/en/docs/", iconName: "Node.js" },
+      { icon: <SiExpress />, link: "https://expressjs.com/", iconName: "Express.js" },
+      { icon: <SiMysql />, link: "https://dev.mysql.com/doc/", iconName: "MySQL" },
+      { icon: <SiChakraui />, link: "https://chakra-ui.com/docs/getting-started", iconName: "Chakra UI" },
     ],
     figma:
       "https://www.figma.com/design/7zc5jB6tZND5YSb4nNW2gH/Visionary?node-id=0-1&t=q3KLwCAOE9VUwNAO-1",
@@ -149,9 +149,9 @@ export const projectList = [
     des: "An open source collision avoidance system testing environment for UAVs. This two-tiered environment was developed to provide a safe and controlled environment for testing collision avoidance for UAV analysts to utilize.",
     img: "/vantage.png",
     iconLists: [
-      { icon: <SiPython />, link: "https://docs.python.org/3/" },
-      { icon: <SiJulia />, link: "https://docs.julialang.org/en/v1/" },
-      { icon: <SiArduino/>, link: "https://ardupilot.org/copter/docs/common-index.html" },
+      { icon: <SiPython />, link: "https://docs.python.org/3/", iconName: "Python" },
+      { icon: <SiJulia />, link: "https://docs.julialang.org/en/v1/", iconName: "Julia" },
+      { icon: <SiArduino/>, link: "https://ardupilot.org/copter/docs/common-index.html", iconName: "Arduino" },
     ],
     figma: "https://www.figma.com/design/3LFUXZGglFq9kiKeomucW9/VANTAGE?node-id=0-1&t=Ofpgv9ZEo3OHObAu-1",
     link: "https://github.com/TEAM-13-VANTAGE/vantage",

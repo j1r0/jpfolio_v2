@@ -40,22 +40,22 @@ export const aboutMe = [
   {
     id: 1,
     content:
-      "hello! my name is jim and i’ve come a long way from where i began.",
+      "Hello! My name is Jim and I’ve come a long way from where I began.",
   },
   {
     id: 2,
     content:
-      "Growing up in Guam, I had a knack for tinkering with technology, often experimenting with old laptops and second-hand phones. rightly so, my mom would call me a “sira-niko,” a playful combination of the Tagalog words for broken and mechanic, because I enjoyed fixing things even if I sometimes made them worse before improving them. coming from family limited financial means and no college education, fixing these old tech meant that we would not need to spend hundreds on a repair or a new device. i also took it upon myself to pursue higher education at Embry-Riddle Aeronautical University, where I'm now an Accelerated Master’s student in Software Engineering.",
+      "Growing up in Guam, I had a knack for tinkering with technology, often experimenting with old laptops and second-hand phones. Rightly so, my mom would call me a “sira-niko,” a playful combination of the Tagalog words for broken and mechanic, because I enjoyed fixing things even if I sometimes made them worse before improving them. Coming from a family with limited financial means and no college education, fixing these old tech meant that we would not need to spend hundreds on a repair or a new device. I also took it upon myself to pursue higher education at Embry-Riddle Aeronautical University, where I'm now an accelerated master’s student in software engineering.",
   },
   {
     id: 3,
     content:
-      "in recent years, full-stack and app development have caught my eyes, inspired by my fascination of how software could simplify life. here i am now in 2024, building a website that makes it easier for other people to get to know who i am :)",
+      "In recent years, full-stack and app development have caught my eyes, inspired by my fascination with how software could simplify life. Here I am now in 2024, building a website that makes it easier for other people to get to know who I am :)",
   },
   {
     id: 4,
     content:
-      "Currently, I am the President of the Society of Asian Scientists and Engineers (SASE) at ERAU. With this role, my mission is to cultivate a welcoming family for students far from home and assist them in gaining the skills and experience they need to succeed. If you are reading this and are from ERAU, join us! We have a lot of fun, exciting events, and awesome people to meet!",
+      "Currently, I am the president of the Society of Asian Scientists and Engineers (SASE) at ERAU. With this role, my mission is to cultivate a welcoming family for students far from home and assist them in gaining the skills and experience they need to succeed. If you are reading this and are from ERAU, join us! We have a lot of fun, exciting events, and awesome people to meet!",
   },
 ];
 

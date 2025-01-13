@@ -51,7 +51,7 @@ export const Card = ({
         <div className={`flex justify-between flex-col gap-2 tablet:gap-0 ${isEven ? "tablet:flex-row" : "desktop:flex-row-reverse tablet:flex-row"}`}>
           <div className="grid grid-flow-col justify-center gap-1">
             {iconLists.map((icon, index) => (
-              <Tooltip key={index} content={icon.iconName} placement="bottom" showArrow={true}>
+              <Tooltip key={index} content={icon.iconName} placement="bottom" showArrow={true} closeDelay={0}>
                 <a
                   href={icon.link}
                   target="_blank"
@@ -65,7 +65,7 @@ export const Card = ({
           </div>
           <div className="flex flex-row items-center justify-center gap-2">
             {figma && (
-              <Tooltip content="Figma" placement="bottom" showArrow={true}>
+              <Tooltip content="Figma" placement="bottom" showArrow={true} closeDelay={0}>
               <a
                 href={figma}
                 target="_blank"
@@ -78,7 +78,7 @@ export const Card = ({
               </a>
               </Tooltip>
             )}
-            <Tooltip content={linktype} placement="bottom" showArrow={true}>
+            <Tooltip content={linktype} placement="bottom" showArrow={true} closeDelay={0}>
             <a
               href={link} 
               target="_blank"

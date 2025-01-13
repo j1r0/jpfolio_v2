@@ -146,7 +146,7 @@ export const projectList = [
   {
     id: 4,
     title: "vantage",
-    des: "An open source collision avoidance system testing environment for UAVs. This project was developed to provide a safe and controlled environment for testing collision avoidance for UAV researches to utilize.",
+    des: "An open source collision avoidance system testing environment for UAVs. This two-tiered environment was developed to provide a safe and controlled environment for testing collision avoidance for UAV analysts to utilize.",
     img: "/vantage.png",
     iconLists: [
       { icon: <SiPython />, link: "https://docs.python.org/3/" },
@@ -156,7 +156,7 @@ export const projectList = [
     figma: "https://www.figma.com/design/3LFUXZGglFq9kiKeomucW9/VANTAGE?node-id=0-1&t=Ofpgv9ZEo3OHObAu-1",
     link: "https://github.com/TEAM-13-VANTAGE/vantage",
     linktype: "GitHub",
-  }
+  },
 ];
 
 export const socialMedia = [

@@ -116,7 +116,7 @@ export const projectList = [
   {
     id: 2,
     title: "ZARA: Reimagined",
-    des: "Redesigned the ZARA e-commerce site to enhance usability, accessibility, and user experience. Conducted heuristic evaluations, developed personas, and performed user testing to identify design gaps. Created a responsive Figma prototype that streamlined navigation, improved product discovery, and maintained brand consistency across platforms.",
+    des: "A usability-driven redesign of the ZARA website focused on improving navigation, accessibility, and user satisfaction. Conducted heuristic evaluations, user testing, and persona development to identify pain points and guide design decisions. Delivered a responsive Figma prototype that modernized the site’s interface while preserving brand identity and enhancing the online shopping experience.",
     img: "/zara.png",
     iconLists: [
 

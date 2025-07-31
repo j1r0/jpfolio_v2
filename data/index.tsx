@@ -8,6 +8,7 @@ import {
   SiCplusplus,
   SiDart,
   SiExpress,
+  SiFigma,
   SiFlutter,
   SiGithub,
   SiGoogle,
@@ -100,9 +101,33 @@ export const gridItems = [
 ];
 
 export const projectList = [
-
   {
     id: 1,
+    title: "SkyTwin",
+    des: "Developed in a requirements engineering course, SkyTwin models real-time air traffic operations to support controller decision-making. The project emphasized SDLC practices such as requirements elicitation, system specification, V&V planning, and UI prototyping. Final deliverables included formal documentation and a Figma-based dashboard with AI-powered trajectory predictions and conflict alerts.",
+    img: "/skytwin.png",
+    iconLists: [ 
+      { icon: <SiFigma />, link: "https://help.figma.com/hc/en-us", iconName: "Figma" },
+    ],
+    figma: "https://www.figma.com/design/VGi6jTfYpHKawiE8fTetr6/SkyTwin?node-id=29-345&t=DXqDkQzPKBYwVftd-1",
+    link: "https://www.figma.com/proto/VGi6jTfYpHKawiE8fTetr6/SkyTwin?page-id=0%3A1&node-id=1-4&starting-point-node-id=1%3A4&t=0f6FxxLn1Mj5BWY1-1",
+    linktype: "Figma Prototype",
+  },
+
+  {
+    id: 2,
+    title: "ZARA: Reimagined",
+    des: "Redesigned the ZARA e-commerce site to enhance usability, accessibility, and user experience. Conducted heuristic evaluations, developed personas, and performed user testing to identify design gaps. Created a responsive Figma prototype that streamlined navigation, improved product discovery, and maintained brand consistency across platforms.",
+    img: "/vantage.png",
+    iconLists: [
+      { icon: <SiFigma />, link: "https://help.figma.com/hc/en-us", iconName: "Figma" },
+    ],
+    figma: "https://www.figma.com/design/fUxeOsddfuRMlwrYTzYih5/ZARA--reimagined?node-id=0-1&t=WOKalhmD9kJTfkPS-1",
+    link: "https://www.figma.com/proto/fUxeOsddfuRMlwrYTzYih5/ZARA--reimagined?page-id=0%3A1&node-id=4044-1184&p=f&viewport=759%2C1%2C0.19&t=RIPHNONERHJKpmGk-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4044%3A1183",
+    linktype: "Figma Prototype",
+  },
+  {
+    id: 3,
     title: "VANTAGE",
     des: "Virtual Autonomous Navigation Testing and Guidance Environment. An open source collision avoidance system testing environment developed to provide a safe and controlled environment for UAV analysts to utilize.",
     img: "/vantage.png",
@@ -116,7 +141,7 @@ export const projectList = [
     linktype: "GitHub",
   },
   {
-    id: 2,
+    id: 4,
     title: "Portfolio v1",
     des: "Version 1 of my portfolio website that showcases my work and skills. It was visually appealing and responsive, but lacked personalization, which led to the creation of v2.",
     img: "/jpfoliov1.png",
@@ -130,7 +155,7 @@ export const projectList = [
     linktype: "Website",
   },
   {
-    id: 3,
+    id: 5,
     title: "Visionary",
     des: "A lightweight and easy-to-use photography website functions as a photo database and a dynamic portfolio, showcasing work with a sleek, responsive design. It's particularly useful for photographers looking to present their work professionally and accessibly, making it easy for clients and viewers to explore their portfolio on any device.",
     img: "/visionary.png",
@@ -147,7 +172,7 @@ export const projectList = [
     linktype: "GitHub",
   },
   {
-    id: 4,
+    id: 6,
     title: "FitSage",
     des: "An at-home fitness and nutrition app was designed to combat health challenges for students, featuring a workout planner and tracking nutrient intake and body metrics. This was created to provide a comprehensive tool for maintaining a healthy lifestyle during the COVID-19 pandemic.",
     img: "/fitsage.png",
@@ -163,7 +188,7 @@ export const projectList = [
     linktype: "GitHub",
   },
   {
-    id: 5,
+    id: 7,
     title: "ERAU SASE Website",
     des: "An engaging and interactive website for a growing school organization (SASE) significantly enhanced the online presence and member engagement, allowing members to easily access resources and stay updated on events.",
     img: "/sasewebsite.png",

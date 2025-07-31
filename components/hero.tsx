@@ -17,7 +17,7 @@ const hero = () => {
         2000,
         "Problem Solver",
         2000,
-        "Full-Stack Developer",
+        "UI/UX Designer",
         2000,
         "Software Engineer",
         2000,

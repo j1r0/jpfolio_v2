@@ -38,7 +38,7 @@ const projects = () => {
       <InfiniteMovingCards
                 items= { technologies }
                 speed = "slow"
-                pauseOnHover = {true}
+                pauseOnHover = {false}
                 className='w-screen pt-10'
                 />
       </div>

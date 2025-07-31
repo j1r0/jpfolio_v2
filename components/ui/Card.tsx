@@ -42,7 +42,7 @@ export const Card = ({
 
       <div className={`absolute desktop:relative flex flex-col gap-3 tablet-lg:gap-6 min-w-60 max-w-72 tablet:max-w-[36rem] desktop:max-w-[30rem] group-hover:scale-105 ${isEven ? "desktop:group-hover:-translate-x-24 desktop:text-right":"desktop:group-hover:translate-x-24 text-left desktop:text-left"} ease-in-out duration-300 text-center`}>
         <div>
-          <p className="font-thin tracking-[0.2em] leading-6 text-xs tablet:text-sm">featured project.</p>
+          {/* <p className="font-thin tracking-[0.2em] leading-6 text-xs tablet:text-sm">featured project.</p> */}
           <h3 className="font-bold tracking-wide text-2xl tablet:text-4xl leading-7">{title}</h3>
         </div>
         <div className="tracking-wider desktop:bg-white-100/[0.7] normal-case desktop:dark:bg-black-100/[0.8] text-black-100 dark:text-white font-thin items-center desktop:backdrop-blur-sm text-sm tablet:text-lg desktop:text-md desktop:shadow-lg leading-5 flex desktop:px-2 py-4 rounded-[0.2rem] desktop:group-hover:shadow-xl duration-200">

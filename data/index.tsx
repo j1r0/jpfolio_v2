@@ -107,7 +107,6 @@ export const projectList = [
     des: "Developed in a requirements engineering course, SkyTwin models real-time air traffic operations to support controller decision-making. The project emphasized SDLC practices such as requirements elicitation, system specification, V&V planning, and UI prototyping. Final deliverables included formal documentation and a Figma-based dashboard with AI-powered trajectory predictions and conflict alerts.",
     img: "/skytwin.png",
     iconLists: [ 
-      { icon: <SiFigma />, link: "https://help.figma.com/hc/en-us", iconName: "Figma" },
     ],
     figma: "https://www.figma.com/design/VGi6jTfYpHKawiE8fTetr6/SkyTwin?node-id=29-345&t=DXqDkQzPKBYwVftd-1",
     link: "https://www.figma.com/proto/VGi6jTfYpHKawiE8fTetr6/SkyTwin?page-id=0%3A1&node-id=1-4&starting-point-node-id=1%3A4&t=0f6FxxLn1Mj5BWY1-1",
@@ -118,9 +117,9 @@ export const projectList = [
     id: 2,
     title: "ZARA: Reimagined",
     des: "Redesigned the ZARA e-commerce site to enhance usability, accessibility, and user experience. Conducted heuristic evaluations, developed personas, and performed user testing to identify design gaps. Created a responsive Figma prototype that streamlined navigation, improved product discovery, and maintained brand consistency across platforms.",
-    img: "/vantage.png",
+    img: "/zara.png",
     iconLists: [
-      { icon: <SiFigma />, link: "https://help.figma.com/hc/en-us", iconName: "Figma" },
+
     ],
     figma: "https://www.figma.com/design/fUxeOsddfuRMlwrYTzYih5/ZARA--reimagined?node-id=0-1&t=WOKalhmD9kJTfkPS-1",
     link: "https://www.figma.com/proto/fUxeOsddfuRMlwrYTzYih5/ZARA--reimagined?page-id=0%3A1&node-id=4044-1184&p=f&viewport=759%2C1%2C0.19&t=RIPHNONERHJKpmGk-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4044%3A1183",
@@ -143,6 +142,7 @@ export const projectList = [
   {
     id: 4,
     title: "Portfolio v1",
+    subtitle: "My first portfolio website",
     des: "Version 1 of my portfolio website that showcases my work and skills. It was visually appealing and responsive, but lacked personalization, which led to the creation of v2.",
     img: "/jpfoliov1.png",
     iconLists: [
@@ -157,6 +157,7 @@ export const projectList = [
   {
     id: 5,
     title: "Visionary",
+    subtitle: "A Photography Portfolio",
     des: "A lightweight and easy-to-use photography website functions as a photo database and a dynamic portfolio, showcasing work with a sleek, responsive design. It's particularly useful for photographers looking to present their work professionally and accessibly, making it easy for clients and viewers to explore their portfolio on any device.",
     img: "/visionary.png",
     iconLists: [
@@ -314,6 +315,12 @@ export const technologies = [
     icon: <SiGithub />,
     link: "https://docs.github.com/en",
   },
+  {
+    title: "Figma",
+    icon: <SiFigma />,
+    link: "https://help.figma.com/hc/en-us",
+  },
+
 ];
 
 export const contactList= [

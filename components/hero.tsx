@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
+import { heroData } from '@/data/index'
 import { TextGenerateEffect } from '@/components/ui/TextGenerate'
 
 const hero = () => {
@@ -38,7 +39,7 @@ const hero = () => {
   {/* Subheading */}
   <div className="w-[80%] desktop:w-[50%]">
   <h3 className="relative desktop:text-left text-center text-base mobile:text-lg font-normal tablet:text-xl tablet_lg:text-2xl lowercase pb-2" >
-  hello, i&apos;m a first-gen student from Guam who has faced the unknown and is turning dreams to reality. I love developing software that enriches lives and impacts communities.
+  {heroData.description}
   </h3>
   </div>
   <a href="#about"><button className="relative dark:border-white border-black-100 dark:text-white text-black-100 text-sm mobile:text-base tablet:text-xl uppercase font-bold py-2 px-4 rounded-lg border-2 hover:opacity-80 hover:scale-105 duration-200">Check out my story</button></a>

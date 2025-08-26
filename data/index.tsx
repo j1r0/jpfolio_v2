@@ -37,6 +37,11 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const heroData = {
+  description:
+    "Hello, I’m a first-gen student from Guam who creates software to connect people, spark opportunity, and explore the unknown.",
+};
+
 export const aboutMe = [
   {
     id: 1,
@@ -62,7 +67,7 @@ export const aboutMe = [
 ];
 
 export const quote = [
-  "To me, software engineering is the art of turning resilience and creativity into tools that connect people, create opportunity, and push the boundaries of exploration.",
+  "To me, software engineering is the art of turning resilience and creativity into tools that connect people, create opportunity, and explore the unknown.",
 ];
 
 export const gridItems = [

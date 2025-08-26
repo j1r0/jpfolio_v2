@@ -46,22 +46,23 @@ export const aboutMe = [
   {
     id: 2,
     content:
-      "Growing up in Guam, I had a knack for tinkering with technology, often experimenting with old laptops and second-hand phones. Rightly so, my mom would call me a “sira-niko,” a playful combination of the Tagalog words for broken and mechanic, because I enjoyed fixing things even if I sometimes made them worse before improving them. Coming from a family with limited financial means and no college education, fixing these old tech meant that we would not need to spend hundreds on a repair or a new device. I also took it upon myself to pursue higher education at Embry-Riddle Aeronautical University, where I'm now an accelerated master’s student in software engineering.",
+      "I was nine months old when my dad, older brother, and I boarded a plane from the Philippines to Guam in search of a better life. For years, my mom had to stay behind due to paperwork, so our only connection was through nightly Skype calls where she sang us lullabies through a pixelated screen. When she finally joined us ten years later, we lived in a small, fragile room on my grandfather’s lot until my dad began building our house with his own two hands. My mom cared for us each day, and together my parents showed me that resilience means not only surviving hardship, but lifting others along the way, whether it was my dad sending money back to extended family in the Philippines or my mom helping families with their paperwork to move to Guam. Their perseverance, compassion, and faith became the foundation of how I approached life and everything that comes with it.",
   },
   {
     id: 3,
     content:
-      "In recent years, full-stack and app development have caught my eyes, inspired by my fascination with how software could simplify life. Here I am now in 2024, building a website that makes it easier for other people to get to know who I am :)",
+      "Creativity became my way of reflecting on these experiences. Photography helped me frame moments, graphic design helped me communicate without words, and videography taught me to tell stories people could feel. Over time, I realized I wanted to create not just for myself, but for others. That desire to design with empathy drew me to software engineering, a field where creativity meets functionality and where I could build tools that carry meaning, connection, and care.",
   },
   {
     id: 4,
     content:
-      "Currently, I am the president of the Society of Asian Scientists and Engineers (SASE) at ERAU. With this role, my mission is to cultivate a welcoming family for students far from home and assist them in gaining the skills and experience they need to succeed. If you are reading this and are from ERAU, join us! We have a lot of fun, exciting events, and awesome people to meet!",
+      "Traveling across the world for higher education sparked my passion for aerospace. Boarding a plane alone, I felt the same awe I once felt seeing my mom’s face across an ocean. Both moments reminded me of the power of engineering to close distances, create opportunities, and fuel exploration. For me, software engineering became the way to bring it all together: a path where I can honor my family’s resilience and faith while building solutions that help people today and open doors to what lies beyond the horizon.",
   },
+
 ];
 
 export const quote = [
-  "Software Engineering is not just about creating code; it's about crafting solutions that improve lives, foster innovation, and drive progress.",
+  "To me, software engineering is the art of turning resilience and creativity into tools that connect people, create opportunity, and push the boundaries of exploration.",
 ];
 
 export const gridItems = [

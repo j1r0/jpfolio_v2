@@ -1,7 +1,11 @@
+'use client'
 import { aboutMe, quote } from "@/data";
 import React, { useState } from "react";
 
 const about = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const previewItems = 4; // Show first 3 paragraphs initially
+
   return (
     <section className=" flex flex-col gap-10 py-10" id="about">
       <div className="relative flex desktop:flex-row flex-col desktop:gap-x-20 gap-y-3 desktop:gap-y-0 items-center justify-center desktop:justify-start tablet_lg:mx-28">
@@ -11,7 +15,8 @@ const about = () => {
 
       <div className="relative flex flex-col desktop:flex-row mx-10 tablet:mx-20 tablet_lg:mx-40 gap-20 desktop:gap-40 items-center justify-center desktop:justify-between">
         <div className="flex flex-col gap-3 ">
-          {aboutMe.map((item) => (
+          {/* Always show preview items */}
+          {aboutMe.slice(0, previewItems).map((item) => (
             <p
               key={item.id}
               className="text-lg tablet:text-xl normal-case leading-6 tracking-wide tablet_lg:text-left font-light text-left"
@@ -19,6 +24,45 @@ const about = () => {
               {item.content}
             </p>
           ))}
+          
+          {/* Animated additional content */}
+          <div 
+            className={`overflow-hidden transition-all duration-500 ease-in-out ${
+              isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
+            }`}
+          >
+            <div className="flex flex-col gap-3">
+              {aboutMe.slice(previewItems).map((item, index) => (
+                <p
+                  key={item.id}
+                  className={`text-lg tablet:text-xl normal-case leading-6 tracking-wide tablet_lg:text-left font-light text-left transform transition-all duration-300 ease-in-out ${
+                    isExpanded 
+                      ? 'translate-y-0 opacity-100' 
+                      : 'translate-y-4 opacity-0'
+                  }`}
+                  style={{
+                    transitionDelay: isExpanded ? `${index * 100}ms` : '0ms'
+                  }}
+                >
+                  {item.content}
+                </p>
+              ))}
+            </div>
+          </div>
+          
+          {aboutMe.length > previewItems && (
+            <button
+              onClick={() => setIsExpanded(!isExpanded)}
+              className={`mt-4 self-start ${isExpanded ? ' dark:text-black-100 text-white dark:bg-white bg-black-100' : 'dark:border-white border-black-100 dark:text-white text-black-100'} text-sm mobile:text-base tablet:text-xl lowercase font-bold py-2 px-4 rounded-lg border-2 hover:opacity-80 hover:scale-105 duration-200`}
+            >
+              <span className="inline-flex items-center gap-1">
+                {isExpanded ? "Read less  " : "Read more  "}
+                <span className={`transform transition-transform duration-300 ${isExpanded ? 'rotate-180' : 'rotate-0'}`}>
+                  ↓
+                </span>
+              </span>
+            </button>
+          )}
         </div>
 
         <div className="grid relative group">

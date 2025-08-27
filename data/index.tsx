@@ -48,41 +48,21 @@ export const aboutMe = [
     content:
       "Hello! My name is Jim and I’ve come a long way from where I began.",
   },
-{
-  id: 1,
-  content:
-    "I was nine months old when my dad, older brother, and I boarded a plane from the Philippines to Guam in search of a better life. For years, my mom had to stay behind due to paperwork, so the only way I could see her was through nightly Skype calls. I remember her singing us lullabies through a pixelated screen until we fell asleep.",
-},
-{
-  id: 2,
-  content:
-    "When my mom was finally able to move to Guam ten years later, we lived together in a single room on my grandfather’s lot. It was no bigger than a small bathroom, with termite-eaten wooden walls and a tin roof that shook whenever it rained. Our door was just a plank of wood with a barrel bolt. Our light came from a salvaged work lamp my dad brought home. At night, we laid a worn mattress on the floor, and in the morning, we would pick it back up so there was space to move around. That little room was cramped and fragile, but it held the love, faith, and hope that kept us going.",
-},
-{
-  id: 3,
-  content:
-    "Eventually, my dad began building a new house with his own two hands. After long workdays, he would spend his nights and weekends mixing cement, sawing wood, and raising walls. I often helped him dig sand or hold a flashlight as he worked late into the night. My mom, on the other hand, made sure our family was cared for every day. She kept our home clean, filled our table with meals, and reminded us that comfort and contentment did not come from having much, but from making the most of what we had and trusting that God would provide.",
-},
-{
-  id: 4,
-  content:
-    "Even in the middle of our struggles, my parents found ways to help others unconditionally. My dad sent money back to extended family in the Philippines, and my mom used her own experience to guide many families through the complex paperwork it took to come to Guam. They showed me that resilience is not only about surviving hardship, but also about lifting others with you along the way, with faith as the anchor.",
-},
-{
-  id: 5,
-  content:
-    "As I grew older, creativity became the way I reflected on these memories. Photography helped me frame moments, graphic design helped me communicate without words, and videography helped me tell stories that people could feel. These creative outlets taught me empathy and perspective, and I realized I did not want to create just for myself; I wanted my skills to help other people, just as my parents had. I wanted to design in a way that could make someone else’s life easier, clearer, and more meaningful. That is what drew me to software engineering. It became the natural bridge between creativity and functionality, a way to build tools that not only solve problems but also carry a sense of care, intention, and connection.",
-},
-{
-  id: 6,
-  content:
-    "Later, traveling across the world to pursue higher education sparked my passion for aerospace. Boarding a plane alone for the first time, I felt the same awe I once felt as a child staring into a pixelated screen to see my mom. Both reminded me of the power of engineering to close distances, to create opportunities, and to push beyond what we know.",
-},
-{
-  id: 7,
-  content:
-    "Looking back, I see how all of these moments connected. A plane that carried us to Guam. A screen that carried my mom’s voice across oceans. Parents who not only provided for us, but also supported extended family and guided others toward better opportunities. Creativity that taught me to design with empathy. And faith that reminded us, even in our hardest moments, that there is always reason to hope. Together, they shaped my realization: aerospace and technology are not just tools, they are bridges of exploration. For me, software engineering became the way to bring it all together: a path where I can honor my resilience and faith while building solutions that help people today and open doors to what lies beyond the horizon.",
-},
+  {
+    id: 2,
+    content:
+      "I was nine months old when my dad, older brother, and I boarded a plane from the Philippines to Guam in search of a better life. For years, my mom had to stay behind due to paperwork, so our only connection was through nightly Skype calls where she sang us lullabies through a pixelated screen. When she finally joined us ten years later, we lived in a small, fragile room on my grandfather’s lot until my dad began building our house with his own two hands while my mom provided care for us each day. Together my parents showed me that resilience means not only surviving hardship, but lifting others along the way, whether it was my dad sending money back to extended family in the Philippines or my mom helping families with their paperwork to move to Guam. Their perseverance, compassion, and faith became the foundation of how I approached life and everything that comes with it.",
+  },
+  {
+    id: 3,
+    content:
+      "Creativity became my way of reflecting on these experiences. Photography helped me frame moments, graphic design helped me communicate without words, and videography taught me to tell stories people could feel. Over time, I realized I wanted to create not just for myself, but for others. That desire to design with empathy drew me to software engineering, a field where creativity meets functionality and where I could build tools that carry meaning, connection, and care.",
+  },
+  {
+    id: 4,
+    content:
+      "Looking back, I see how all of these moments connected. A plane that carried us to Guam. A screen that carried my mom’s voice across oceans. Parents who not only provided for us, but also supported extended family and guided others toward better opportunities. Creativity that taught me to design with empathy. And faith that reminded us, even in our hardest moments, that there is always reason to hope. Together, they shaped my realization: aerospace and technology are not just tools, they are bridges of exploration. For me, software engineering became the way to bring it all together: a path where I can honor my resilience and faith while building solutions that help people today and open doors to what lies beyond the horizon.",
+  },
 
 ];
 

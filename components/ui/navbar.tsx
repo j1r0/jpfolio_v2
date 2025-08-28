@@ -86,7 +86,16 @@ export const Navbar = ({
             transition={{ duration: 0.7, delay: scrolled ? 0.2 : 0.1}}
           >
             <Link href="/" className="flex flex-row items-center w-10">
-              <img src="jp_logo.svg" alt="JP"/>
+              <img 
+                src="/light-logo.svg" 
+                alt="JP"
+                className="dark:hidden"
+              />
+              <img 
+                src="/dark-logo.svg" 
+                alt="JP"
+                className="hidden dark:block"
+              />
             </Link>
           </motion.div>
         )}

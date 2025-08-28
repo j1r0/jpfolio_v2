@@ -24,6 +24,7 @@ const NeueMontreal = localFont({
 export const metadata: Metadata = {
   title: "Jim Pamplona",
   description: "Jim Pamplona's Portfolio",
+  
 };
 
 export default function RootLayout({

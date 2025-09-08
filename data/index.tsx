@@ -46,28 +46,27 @@ export const aboutMe = [
   {
     id: 1,
     content:
-      "Hello! My name is Jim and I’ve come a long way from where I began.",
+      "I’m Jim, a first-generation student shaped by a journey that began in the Philippines and continued in Guam.",
   },
   {
     id: 2,
     content:
-      "I was nine months old when my dad, older brother, and I boarded a plane from the Philippines to Guam in search of a better life. For years, my mom had to stay behind due to paperwork, so our only connection was through nightly Skype calls where she sang us lullabies through a pixelated screen. When she finally joined us ten years later, we lived in a small, fragile room on my grandfather’s lot until my dad began building our house with his own two hands while my mom provided care for us each day. Together my parents showed me that resilience means not only surviving hardship, but lifting others along the way, whether it was my dad sending money back to extended family in the Philippines or my mom helping families with their paperwork to move to Guam. Their perseverance, compassion, and faith became the foundation of how I approached life and everything that comes with it.",
+      "My journey began with resilience. My family had immigrated from the Philippines to Guam in search for a better life. Our family of five lived in a small dilapidated room in my grandfather's lot until we were abled to afford building a new home. Growing up, I learned resilience from my parents: my dad building our home with his own hands, my mom guiding families in their immigration dreams, and both of them showing me that strength means lifting others along the way."
   },
   {
     id: 3,
     content:
-      "Creativity became my way of reflecting on these experiences. Photography helped me frame moments, graphic design helped me communicate without words, and videography taught me to tell stories people could feel. Over time, I realized I wanted to create not just for myself, but for others. That desire to design with empathy drew me to software engineering, a field where creativity meets functionality and where I could build tools that carry meaning, connection, and care.",
-  },
-  {
+      "I enjoyed the little things that creativity gave me: the satisfaction of framing a photo just right, the feeling when a design clearly communicated an idea, or the way a short video could make someone smile. Those moments showed me how powerful design could be in connecting with people, which eventually led me to software engineering. Along the way, I discovered a passion for front-end design, where I can combine technical precision with an eye for aesthetics to create interfaces that feel both intuitive and engaging."
+  }, {
     id: 4,
     content:
-      "Looking back, I see how all of these moments connected. A plane that carried us to Guam. A screen that carried my mom’s voice across oceans. Parents who not only provided for us, but also supported extended family and guided others toward better opportunities. Creativity that taught me to design with empathy. And faith that reminded us, even in our hardest moments, that there is always reason to hope. Together, they shaped my realization: aerospace and technology are not just tools, they are bridges of exploration. For me, software engineering became the way to bring it all together: a path where I can honor my resilience and faith while building solutions that help people today and open doors to what lies beyond the horizon.",
+      "Today, I bring together empathy, creativity, and technical expertise to design solutions that not only work but inspire. I see software as a bridge that helps us explore, connect, and push beyond the horizon.",
   },
 
 ];
 
 export const quote = [
-  "To me, software engineering is the art of turning resilience and creativity into tools that connect people, create opportunity, and explore the unknown.",
+  "software engineering is the art of turning resilience and creativity into tools that connect people, create opportunity, and explore the unknown.",
 ];
 
 export const gridItems = [

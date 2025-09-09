@@ -51,13 +51,14 @@ export const aboutMe = [
   {
     id: 2,
     content:
-      "My journey began with resilience. My family had immigrated from the Philippines to Guam in search for a better life. Our family of five lived in a small dilapidated room in my grandfather's lot until we were abled to afford building a new home. Growing up, I learned resilience from my parents: my dad building our home with his own hands, my mom guiding families in their immigration dreams, and both of them showing me that strength means lifting others along the way."
+      "My journey began with resilience. My family had immigrated from the Philippines to Guam in search for a better life. Our family of five lived in a small dilapidated room in my grandfather's lot until we were abled to afford building a new home. As a child, I learned resilience from my parents: my dad building our home with his own hands, my mom guiding families in their immigration dreams, and both of them showing me that strength means lifting others along the way."
   },
   {
     id: 3,
     content:
-      "I enjoyed the little things that creativity gave me: the satisfaction of framing a photo just right, the feeling when a design clearly communicated an idea, or the way a short video could make someone smile. Those moments showed me how powerful design could be in connecting with people, which eventually led me to software engineering. Along the way, I discovered a passion for front-end design, where I can combine technical precision with an eye for aesthetics to create interfaces that feel both intuitive and engaging."
-  }, {
+      "As I grew up, creativity became my anchor, helping me appreciate the beauty in everyday moments. A photo that held a memory, a graphic that spoke volumes, a video that made someone feel understood. These experiences showed me how powerful design can be in connecting with people, and I wanted to make that connection more tangible. That led me to pursue software engineering. Along the way, I discovered a passion for front-end design, where I can blend technical precision with an eye for aesthetics to create interfaces that feel both intuitive and engaging.",
+  },
+  {
     id: 4,
     content:
       "Today, I bring together empathy, creativity, and technical expertise to design solutions that not only work but inspire. I see software as a bridge that helps us explore, connect, and push beyond the horizon.",

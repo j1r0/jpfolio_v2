@@ -11,7 +11,7 @@ const about = () => {
     const updatePreviewItems = () => {
       const screenWidth = window.innerWidth;
       if (screenWidth < 800) {
-        setPreviewItems(3);
+        setPreviewItems(2);
         setIsTablet(false);
       } else {
         setPreviewItems(4);
